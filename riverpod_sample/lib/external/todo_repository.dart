@@ -1,4 +1,4 @@
-import 'package:riverpod_sample/model/todo.dart';
+import 'package:riverpod_sample/model/todolist/todo.dart';
 
 abstract class TodoListRepository {
   Future<List<Todo>> getTodoList();

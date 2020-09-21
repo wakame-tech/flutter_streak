@@ -1,8 +1,6 @@
-// Copyright © 2020 WorldRIZe. All rights reserved.
-
 import 'package:flutter/material.dart';
 import 'package:riverpod_sample/external/todo_repository.dart';
-import 'package:riverpod_sample/model/todo.dart';
+import 'package:riverpod_sample/model/todolist/todo.dart';
 
 class TodoListService {
   TodoListService({@required this.repo});
