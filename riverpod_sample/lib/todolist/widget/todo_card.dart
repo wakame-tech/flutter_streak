@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_sample/model/todolist/todo.dart';
+import 'package:riverpod_sample/todolist/model/todo.dart';
 
 class TodoCard extends ConsumerWidget {
   TodoCard({

@@ -1,5 +1,5 @@
-import 'package:riverpod_sample/external/todo_service.dart';
-import 'package:riverpod_sample/model/todolist/todo.dart';
+import 'package:riverpod_sample/todolist/model/todo.dart';
+import 'package:riverpod_sample/todolist/service/todolist_service.dart';
 import 'package:state_notifier/state_notifier.dart';
 import 'package:uuid/uuid.dart';
 

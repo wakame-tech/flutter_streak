@@ -4,7 +4,9 @@ part 'todo.freezed.dart';
 part 'todo.g.dart';
 
 @freezed
-abstract class Todo with _$Todo {
+abstract class Todo implements _$Todo {
+  const Todo._();
+
   const factory Todo({
     @required String uid,
     @required String title,

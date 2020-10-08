@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:riverpod_sample/external/todo_repository.dart';
-import 'package:riverpod_sample/model/todolist/todo.dart';
+import 'package:riverpod_sample/todolist/model/todo.dart';
+import 'package:riverpod_sample/todolist/repository/todolist_repository.dart';
 
 class TodoListService {
   TodoListService({@required this.repo});

@@ -95,11 +95,12 @@ class __$TodoCopyWithImpl<$Res> extends _$TodoCopyWithImpl<$Res>
 }
 
 @JsonSerializable()
-class _$_Todo implements _Todo {
+class _$_Todo extends _Todo {
   const _$_Todo({@required this.uid, @required this.title, this.done = false})
       : assert(uid != null),
         assert(title != null),
-        assert(done != null);
+        assert(done != null),
+        super._();
 
   factory _$_Todo.fromJson(Map<String, dynamic> json) =>
       _$_$_TodoFromJson(json);
@@ -146,7 +147,8 @@ class _$_Todo implements _Todo {
   }
 }
 
-abstract class _Todo implements Todo {
+abstract class _Todo extends Todo {
+  const _Todo._() : super._();
   const factory _Todo(
       {@required String uid, @required String title, bool done}) = _$_Todo;
 

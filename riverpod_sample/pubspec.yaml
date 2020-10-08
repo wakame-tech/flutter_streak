@@ -28,6 +28,7 @@ dependencies:
   freezed_annotation:
   json_serializable:
   state_notifier:
+  timeline_tile: ^1.0.0
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:riverpod_sample/ui/playingcard/playingcard_page.dart';
-import 'package:riverpod_sample/ui/todolist/todolist_page.dart';
+import 'package:riverpod_sample/playingcard/playingcard_page.dart';
+import 'package:riverpod_sample/todolist/todolist_page.dart';
 
 class StreakApp extends StatefulWidget {
   @override

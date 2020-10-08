@@ -1,0 +1,33 @@
+desc 'ヘルプ'
+task :help do
+  sh 'rake -T'
+end
+
+desc 'Run App with Development'
+task :dev do
+  sh 'flutter run'
+end
+
+desc 'open Xcode Workspace'
+task :xc do
+  sh 'open ios/Runner.xcworkspace'
+end
+
+desc 'コード生成'
+task :gen do
+  puts '[Task gen]'
+  sh 'flutter pub run build_runner build --delete-conflicting-outputs'
+end
+
+desc 'コード生成(watch)'
+task :watch do
+  puts '[Task watch]'
+  sh 'flutter pub run build_runner watch --delete-conflicting-outputs'
+end
+
+desc 'テスト'
+task :test do
+  puts '[Task test]'
+  # flutter unit test
+  sh 'flutter test --coverage'
+end
